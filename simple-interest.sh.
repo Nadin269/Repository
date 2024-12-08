@@ -1,0 +1,6 @@
+#!/buin/bash
+echo "Calculation simple interest"
+read -p "Principal Amoun:" principal
+read -p "Time (in Years): " time
+interest=$(echo "$principal * $rate * $time / 100" / bc -1)
+echo "simple Interest: $interest"
