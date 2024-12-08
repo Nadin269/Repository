@@ -1,1 +1,1 @@
-# Repository
+# simple Interest Calculator
